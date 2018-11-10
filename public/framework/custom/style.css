@@ -1,0 +1,300 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sell Bazar
+    Author: Md. Nayem
+    Author URI:
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. Theme Default CSS (body, link color, section etc)
+    2.  Header top Customize CSS
+    3.  Sidebar Left Customize CSS
+    4.  Bootstrap Customize CSS
+    5.  Index Dashboard Customize CSS
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+body {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+}
+
+body.darklayout {
+    background: #212121;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/*----------------------------------------*/
+/*  2.  Header top Customize CSS
+/*----------------------------------------*/
+.logo-wrap-pro {
+    display: none;
+}
+
+#NavBar {
+    background-color: #303030 !important;
+}
+
+#NavBar .dark-btn {
+    background-color: #2b2a2a !important;
+    border-color: #2b2a2a !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.CImg {
+    width: 36px;
+    margin: -10px 2px;
+}
+
+/*----------------------------------------*/
+/*  3.  Sidebar Left Customize CSS
+/*----------------------------------------*/
+
+#sidebar {
+    background-color: #303030 !important;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #393939;
+}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar.toggled .sidebar-header h3 {
+    display: none;
+}
+
+#sidebar.toggled .sidebar-header strong {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .sidebar .nav-item .dropdown-menu {
+        position: absolute !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        left: calc(110px + 7.5rem) !important;
+        margin: 0;
+    }
+}
+
+/*----------------------------------------*/
+/*  4.  Bootstrap Customize CSS
+/*----------------------------------------*/
+.dropdown-item:hover {
+    background-color: #25282b !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-size: 14px !important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*----------------------------------------*/
+/*  5.  Index Dashboard Customize CSS
+/*----------------------------------------*/
+
+.bg-flat-color-1 {
+    background: #20a8d8b8;
+}
+
+.bg-flat-color-2 {
+    background: #63c2deb8;
+}
+
+.bg-flat-color-3 {
+    background: #ffc107b8;
+}
+
+.bg-flat-color-4 {
+    background: #f86c6bb8;
+}
+
+.shadow-reset {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.darklayout .income-title,
+.dashboard-line-chart,
+.income-dashone-pro,
+.darklayout .income-dashone-pro,
+.welcome-wrapper {
+    background: #393939;
+    padding: 20px;
+}
+
+.welcome-adminpro-title h1, .dash-adminpro-project-title h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.welcome-adminpro-title p, .dash-adminpro-project-title p {
+    font-size: 14px;
+}
+
+.message-list-menu li {
+    border-bottom: 1px solid #303030;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+ul.message-list-menu li .message-serial.message-cl-one {
+    background: #03a9f0;
+}
+
+ul.message-list-menu li .message-serial.message-cl-two {
+    background: #303030;
+}
+
+ul.message-list-menu li .message-serial.message-cl-three {
+    background: #1ab394;
+}
+
+ul.message-list-menu li .message-serial.message-cl-four {
+    background: #ccc;
+    color: #303030;
+}
+
+ul.message-list-menu li .message-serial.message-cl-five {
+    background: #1c84c6;
+}
+
+ul.message-list-menu li .message-serial.message-cl-five {
+    background: #1c84c6;
+}
+
+ul.message-list-menu li .message-serial {
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    background: #303030;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px 0px;
+}
+
+ul.message-list-menu li .message-info {
+    width: 205px;
+    display: inline-block;
+}
+
+ul.message-list-menu li .message-time {
+    text-align: right;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+.income-rate-total,
+.main-income-head {
+    position: relative;
+}
+
+.income-title h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.income-title p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    color: #fff;
+    padding: 2px 10px;
+    background: #1c84c6;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.nt-mg-b-30 {
+    margin-bottom: 30px;
+}
+
+.price-graph {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.income-range p {
+    font-size: 14px;
+    margin: 0;
+    float: left;
+}
+
+.income-range .income-percentange {
+    font-size: 14px;
+    color: #03a9f4;
+    float: right;
+}
+
+.linechart-dash-rate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linechart-dash-rate h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.linechart-dash-rate p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.clearfix, .clear {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.table-bordered, .table-bordered tr,
+.table-bordered tr td, .table-bordered thead,
+.table-bordered thead tr, .table-bordered thead th,
+.table-bordered tr th {
+    border: 1px solid #212121 !important;
+}
+
+.page-item.disabled .page-link,
+.pagination .page-link{
+    color: #a98383;
+    background-color: #393939;
+    border-color: #212121;
+}
+
+
+
+
+
+
+
+
